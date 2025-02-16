@@ -1,0 +1,67 @@
+
+.Contact {
+    width: 100%;
+    padding: 3rem 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container chính */
+.contact-container {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    word-wrap: break-word; 
+}
+
+
+.contact-content {
+    max-width: 90%;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.contact-content h2 {
+    color: aqua;
+}
+.contact-content h2::after {
+    display: none;
+}
+.contact-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Responsive cho Mobile */
+@media (max-width: 768px) {
+    .Contact {
+        padding: 2rem 1rem;
+    }
+
+    .contact-container {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .contact-content {
+        max-width: 100%;
+    }
+
+    .contact-content h2 {
+        font-size: 1.5rem;
+    }
+    .contact-content h2::after {
+        display: none;
+    }
+
+    .contact-content p {
+        font-size: 0.9rem;
+    }
+}

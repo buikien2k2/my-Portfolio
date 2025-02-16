@@ -1,0 +1,116 @@
+{
+    "skill": [
+        {
+            "id": 1,
+            "icon": "devicon-html5-plain colored",
+            "name": "HTML5",
+            "top": 50,
+            "left": 50,
+            "info": "I have a basic understanding of HTML5 and can create structured web pages following best practices."
+        },
+        { 
+            "id": 2, 
+            "icon": "devicon-css3-plain colored",
+            "name": "CSS3", 
+            "top": 100, 
+            "left": 150, 
+            "info": "I can style web pages using CSS3, including Flexbox, Grid, and responsive design techniques." 
+        },
+        { 
+            "id": 3, 
+            "icon": "devicon-javascript-plain colored", 
+            "name": "JAVASCRIPT",
+            "top": 200, 
+            "left": 250, 
+            "info": "I have basic knowledge of JavaScript and can add interactivity to websites using DOM manipulation and simple functions." 
+        },
+        { 
+            "id": 4, 
+            "icon": "devicon-react-original colored", 
+            "name": "REACT",
+            "top": 150, 
+            "left": 100, 
+            "info": "I am learning React and can build simple components and manage state using hooks." 
+        },
+        { 
+            "id": 5, 
+            "icon": "devicon-python-plain colored", 
+            "name": "PYTHON",
+            "top": 50, 
+            "left": 100, 
+            "info": "I have basic knowledge of Python and can write simple scripts for automation and data processing." 
+        },
+        { 
+            "id": 6, 
+            "icon": "devicon-java-plain colored", 
+            "name": "JAVA",
+            "top": 150, 
+            "left": 50, 
+            "info": "I have a basic understanding of Java and Object-Oriented Programming concepts." 
+        },
+        { 
+            "id": 7, 
+            "icon": "devicon-csharp-plain colored", 
+            "name": "C#",
+            "top": 200, 
+            "left": 100, 
+            "info": "I am familiar with C# and have written small applications using .NET." 
+        },
+        { 
+            "id": 8, 
+            "icon": "devicon-spring-original colored", 
+            "name": "SPRINGBOOT",
+            "top": 200, 
+            "left": 100, 
+            "info": "I have a basic understanding of Spring Boot and how it is used to build backend services." 
+        },
+        { 
+            "id": 9, 
+            "icon": "devicon-mysql-original colored", 
+            "name": "MYSQL",
+            "top": 200, 
+            "left": 100, 
+            "info": "I can write basic SQL queries and understand how relational databases work." 
+        },
+        { 
+            "id": 10, 
+            "icon": "devicon-firebase-plain colored", 
+            "name": "FIREBASE",
+            "top": 200, 
+            "left": 100, 
+            "info": "I have used Firebase for authentication and real-time database in small projects." 
+        },
+        { 
+            "id": 11, 
+            "icon": "devicon-figma-plain colored", 
+            "name": "FIGMA",
+            "top": 200, 
+            "left": 100, 
+            "info": "I can use Figma to design simple UI layouts and prototypes." 
+        },
+        { 
+            "id": 12, 
+            "icon": "devicon-github-original colored", 
+            "name": "GITHUB",
+            "top": 200, 
+            "left": 100, 
+            "info": "I can use GitHub for version control and collaborate on projects using Git." 
+        },
+        { 
+            "id": 13, 
+            "icon": "devicon-git-plain colored", 
+            "name": "GIT",
+            "top": 200, 
+            "left": 100, 
+            "info": "I have a basic understanding of Git commands such as commit, push, pull, and branch management." 
+        },
+        { 
+            "id": 14, 
+            "icon": "devicon-php-plain colored", 
+            "name": "PHP",
+            "top": 200, 
+            "left": 100, 
+            "info": "I am learning PHP and have built small projects using it." 
+        }
+    ]
+}

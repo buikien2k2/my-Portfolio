@@ -1,0 +1,175 @@
+.Skills {
+  padding-top: 4rem;
+  background: #304761;
+}
+
+.chaos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+}
+
+/* Hộp chứa các nút */
+.chaos-box {
+  background: #aae0db;
+  position: relative;
+  border: 3px solid rgb(12, 179, 250);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 170, 255, 0.5);
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+/* Khi hộp di chuyển sang trái */
+.move-left {
+  transform: translateX(-50%);
+}
+
+/* Khi hộp ẩn trên mobile */
+.hide-box {
+  display: none;
+}
+
+/* Các nút chạy loạn */
+.chaos-button {
+  position: absolute;
+  background: #70b3fb;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: top 0.5s ease-in-out, left 0.5s ease-in-out, background 0.3s ease;
+}
+
+/* Kích thước icon */
+.chaos-button i {
+  font-size: 2rem;
+  color: white;
+}
+
+/* Hover đổi màu */
+.chaos-button:hover {
+  background: #ff5733;
+}
+
+/* Bảng thông tin */
+.info-box {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(50%, -50%);
+  width: 36vw;
+  background: transparent;
+  text-align: left;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+/* Hiển thị nội dung */
+.show-info {
+  opacity: 1;
+}
+
+/* Khi click ra ngoài, ẩn thông tin */
+.info-box:not(.show-info) {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.show-info h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  transform: translateY(10px);
+  animation: fadeInUp 0.5s ease-in-out forwards;
+}
+
+.show-info p {
+  font-size: 1.2rem;
+  color: white;
+  transform: translateY(10px);
+  animation: fadeInUp 0.7s ease-in-out forwards;
+}
+
+/* Animation chữ hiện dần từ dưới lên */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.info-box h3,
+.info-box p {
+  color: rgb(255, 255, 255);
+}
+
+/* Responsive */
+@media (max-width: 992px) and (min-width: 768px) {
+  .chaos-button {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .chaos-button i {
+    font-size: 1.6rem;
+  }
+
+  .info-box{
+    left: 40%;
+  }
+  .show-info h3{
+    font-size: 1.5rem;
+  }
+  .show-info p{
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 767px) {
+  .chaos-box {
+    width: 70vw !important;
+    height: 70vw !important;
+  }
+
+  .chaos-button {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .chaos-button i {
+    font-size: 1.6rem;
+  }
+
+  /* Khi click vào button, hộp biến mất */
+  .hide-box {
+    display: none;
+  }
+
+  /* Chữ hiển thị giữa màn hình */
+  .show-info {
+    margin-top: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .show-info h3{
+    font-size: 1.5rem;
+  }
+  .show-info p{
+    font-size: 0.9rem;
+  }
+}

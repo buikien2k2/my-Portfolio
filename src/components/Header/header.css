@@ -1,0 +1,119 @@
+/* General styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    background-color: #333;
+}
+
+/* Hiển thị khi cuộn */
+.visible {
+    transform: translateY(0%);
+}
+
+/* Ẩn khi cuộn xuống */
+.hidden {
+    transform: translateY(-100%);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+/* Logo */
+h1 {
+    margin: 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    color: #fff;
+}
+
+/* Navbar */
+.nav-links ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    color: aqua;
+}
+
+/* Icon menu cho mobile */
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+/* Boxicons menu */
+.bx {
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links button:hover,
+.nav-links button.active {
+    color: aqua;
+}
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block; /* Hiện icon menu */
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background-color: #333;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+}

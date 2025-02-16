@@ -1,0 +1,32 @@
+{
+    "project":[
+        {
+            "name": "My Portfolio Website",
+            "description": "A personal website showcasing my skills, projects, and contact information.",
+            "used": "HTML/CSS, JavaScript, ReactJS, Github",
+            "image": "project1_1.png",
+            "link": "#"
+        },
+        {
+            "name": "Medical Service TicaCare",
+            "description": "Online Health Management and Care Website, Supporting Quick Medical Appointment Registration.",
+            "used": "HTML/CSS, Javascript, Firebase, Boostrap, GitHub",
+            "image": "project2_1.png",
+            "link": "https://github.com/haialibaba/DACN"
+        },
+        {
+            "name": "Shoe Sales Management App",
+            "description": "Shoe Management and Sales App, Revenue Statistics, and Import/Export of Footwear Products.",
+            "used": "C#, .Net, MySQL",
+            "image": "project3_1.png",
+            "link": "https://github.com/buikien2k2/doanbangiayC-"
+        },
+        {
+            "name": "Chess Game online App",
+            "description": "A chess game with a beautiful interface, built and run exclusively on Linux.",
+            "used": "Python",
+            "image": "project4_1.png",
+            "link": "https://github.com/buikien2k2/ChessGameOnline"
+        }
+    ]
+}
