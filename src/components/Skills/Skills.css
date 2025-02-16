@@ -113,9 +113,23 @@
 .info-box p {
   color: rgb(255, 255, 255);
 }
-
+.blink-text {
+  font-weight: normal;
+  font-size: 1.5rem;
+  display: inline-block;
+  color: aqua;
+  animation: blinking 1.5s infinite;
+}
+@keyframes blinking{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.hide-text{
+  display: none;
+}
 /* Responsive */
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 768px) {
   .chaos-button {
     width: 2.5rem;
     height: 2.5rem;
@@ -124,7 +138,9 @@
   .chaos-button i {
     font-size: 1.6rem;
   }
-
+  .blink-text{
+    font-size: 1rem;
+  }
   .info-box{
     left: 40%;
   }
@@ -145,7 +161,9 @@
     width: 2.5rem;
     height: 2.5rem;
   }
-
+  .blink-text{
+    font-size: 0.8rem;
+  }
   .chaos-button i {
     font-size: 1.6rem;
   }

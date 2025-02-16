@@ -73,6 +73,9 @@ const Skills = () => {
         Skills
       </h2>
       <p>"Here are my skills"</p>
+      {!isBoxMoved  && (
+        <p className={`blink-text ${isBoxMoved ? "hide-text": ""}`}>Click button to see info</p>
+      )}
       <div className="chaos-container" ref={containerRef}>
         <div className={`chaos-box ${isBoxMoved ? (isMobile ? "hide-box" : "move-left") : ""}`} style={{ width: `${boxSize}vw`, height: `${boxSize}vw` }}>
           {buttons.map((btn) => (
@@ -81,7 +84,7 @@ const Skills = () => {
             </button>
           ))}
         </div>
-
+        
         {isBoxMoved && selectedButton && (
           <div className={`info-box ${isBoxMoved ? "show-info" : ""}`}>
             <h3>{selectedButton.name.toUpperCase()}</h3>

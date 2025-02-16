@@ -36,7 +36,7 @@ const About = () => {
                 </tr>
                 <tr>
                   <td><strong>📧 Email</strong></td>
-                  <td>kienai2k2@example.com</td>
+                  <td>kienai2k2@gmail.com</td>
                 </tr>
                 <tr>
                   <td><strong>📍 Address</strong></td>
