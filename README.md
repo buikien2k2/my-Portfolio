@@ -1,7 +1,7 @@
 # My Portfolio
 
 ## 🖥️ Giới Thiệu
-**My Portfolio** là một trang web cá nhân giúp giới thiệu bản thân, kỹ năng và các dự án đã thực hiện. Dự án được xây dựng bằng **HTML, CSS, JavaScript** với framework **React**, giúp tạo ra một giao diện hiện đại, trực quan.
+**My Portfolio** là một trang web cá nhân của tôi, giúp giới thiệu bản thân, kỹ năng và các dự án đã thực hiện. Dự án được xây dựng bằng **HTML, CSS, JavaScript** với framework **React**, giúp tạo ra một giao diện hiện đại, trực quan, giúp tôi dễ dàng thể hiện thông tin của tôi tới nhà tuyển dụng
 
 ## 🚀 Tính Năng Chính
 - Trang giới thiệu cá nhân (About Me)
@@ -15,7 +15,13 @@
 - **Framework:** React 
 
 ## 📸 Hình Ảnh Demo
+![image](https://github.com/user-attachments/assets/c484c0e8-098b-40fd-8806-4154773ea8d6)
 
+![Image](https://github.com/user-attachments/assets/d18ee98e-7305-4eed-8b49-429701d02e33)
+
+![Image](https://github.com/user-attachments/assets/85bbe521-946a-4739-8e2b-e47bd781f27a)
+
+![Image](https://github.com/user-attachments/assets/dd2ed90c-e61b-4f48-a1ca-e44445a1c29d)
 
 ## 🔧 Cài Đặt & Chạy Dự Án
 1. Clone repository:
@@ -31,8 +37,6 @@
    npm install
    npm start
    ```
-4. Nếu chỉ chạy file tĩnh:
-   - Mở `index.html` trên trình duyệt
 
 ## 🌍 Triển Khai (Deployment)
 Dự án đã được triển khai trên:
