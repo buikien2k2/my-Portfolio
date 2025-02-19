@@ -15,12 +15,16 @@
 - **Framework:** React 
 
 ## 📸 Hình Ảnh Demo
-![image](https://github.com/user-attachments/assets/c484c0e8-098b-40fd-8806-4154773ea8d6)
-
+### Giao diện trang chờ
 ![Image](https://github.com/user-attachments/assets/d18ee98e-7305-4eed-8b49-429701d02e33)
 
+### Giao diện trang chủ
+![image](https://github.com/user-attachments/assets/c484c0e8-098b-40fd-8806-4154773ea8d6)
+
+### Giao diện projects
 ![Image](https://github.com/user-attachments/assets/85bbe521-946a-4739-8e2b-e47bd781f27a)
 
+### Giao diện skills
 ![Image](https://github.com/user-attachments/assets/dd2ed90c-e61b-4f48-a1ca-e44445a1c29d)
 
 ## 🔧 Cài Đặt & Chạy Dự Án
